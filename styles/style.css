@@ -265,7 +265,7 @@
   font-weight: 400;
   margin: 0;
 }
-.cards {
+.staff__cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -417,105 +417,58 @@
 }
 
 .footer {
-  display: flex;
-  box-sizing: border-box;
+  padding: 60px 102px 60px 80px;
   background-color: #1f1f1f;
-  color: #fff;
-  max-width: 1600px;
-  min-height: 364px;
+  color: #f2f2f2;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__columns {
   display: flex;
-  list-style: none;
-  padding: 60px 102px 80px;
-  max-width: 250px;
-  min-height: 116px;
+  min-height: 224px;
 }
 .footer__column {
-  display: flex;
-  background-color: #1f1f1f;
-  color: #fff;
-  max-width: 200px;
-  max-height: 116px;
+  margin: 0;
 }
 
 .footer__column_content_hours {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  flex-wrap: nowrap;
-  min-width: 220px;
-  max-height: 116px;
-  padding: 0;
-  margin-left: 300px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  min-width: 150px;
-  max-height: 116px;
   margin-left: 100px;
 }
 
 .footer__logo {
-  max-width: 100px;
+  max-width: 116px;
   max-height: 21px;
-  padding-top: 60px;
 }
 
 .footer__list {
-  display: flex;
-  flex-direction: column;
-  margin-top: 0;
-  justify-content: flex-start;
-  list-style-type: none;
-  padding-left: 0;
-  padding-bottom: 0px;
+  padding: 0;
 }
 
 .footer__list-item {
-  display: flex;
-  justify-content: flex-start;
-  margin-bottom: 0;
-  font-size: 16px;
-  line-height: 20px;
-  padding-top: 20px;
-  margin-top: 0px;
-  line-height: 20px;
-  font-size: 16px;
+  margin-bottom: 16px;
+  list-style: none;
 }
 
 .footer__column-heading {
-  padding-top: 60px;
-  margin-bottom: 0px;
   margin-top: 0;
 }
 
 .footer__column-link {
-  display: flex;
-  justify-content: flex-start;
-  color: white;
-  font-size: 16px;
-  line-height: 20px;
   text-decoration: none;
+  color: #f2f2f2;
 }
 
 .footer__social-icon {
-  margin-left: 0;
-  margin-right: 25px;
-  padding-left: 0;
+  margin-right: 10px;
 }
-
+.footer__column-link:hover {
+  color: #c1c1c1;
+}
 .footer__copyright {
-  position: relative;
-  top: 220px;
-  left: -100px;
-  background-color: #1f1f1f;
-  min-width: 175px;
-  max-height: 21px;
-  font-size: 16px;
-  color: #f2f2f2;
+  margin: 0;
 }
