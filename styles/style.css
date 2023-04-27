@@ -164,7 +164,9 @@
   color: #2f80ed;
   text-decoration: none;
 }
-
+.events__more:hover {
+  color: #1f69c9;
+}
 .events__cover {
   flex-grow: 1;
   flex-shrink: 0;
@@ -269,15 +271,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 40px;
   max-width: 760px;
-  min-height: 920px;
+  min-height: 880px;
   margin: 68px auto 50px;
   padding: 0;
 }
 .card {
   justify-content: space-between;
   background-color: #fff;
-  border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
   max-width: 360px;
@@ -306,7 +308,7 @@
 }
 
 .card__footer {
-  margin: 0;
+  margin-top: auto;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
@@ -465,7 +467,10 @@
 
 .footer__social-icon {
   margin-right: 10px;
+  max-height: 16px;
+  max-width: 16px;
 }
+
 .footer__column-link:hover {
   color: #c1c1c1;
 }
