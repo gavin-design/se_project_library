@@ -281,9 +281,10 @@
   justify-content: space-between;
   background-color: #fff;
   padding: 32px 40px 20px 32px;
+  border-radius: 6px;
   box-sizing: border-box;
-  max-width: 360px;
-  max-height: 420px;
+  width: 360px;
+  height: 420px;
   list-style: none;
 }
 
@@ -443,8 +444,8 @@
 }
 
 .footer__logo {
-  max-width: 116px;
-  max-height: 21px;
+  width: 116px;
+  height: 21px;
 }
 
 .footer__list {
@@ -467,8 +468,8 @@
 
 .footer__social-icon {
   margin-right: 10px;
-  max-height: 16px;
-  max-width: 16px;
+  height: 16px;
+  width: 16px;
 }
 
 .footer__column-link:hover {
