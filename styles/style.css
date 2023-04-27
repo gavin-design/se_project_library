@@ -8,6 +8,7 @@
 }
 
 .header {
+  display: flex;
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
@@ -85,6 +86,10 @@
 }
 
 .header__link {
+  display: flex;
+  align-items: baseline;
+  width: 200px;
+  height: 50px;
   color: #2f80ed;
   text-decoration: none;
 }
@@ -92,6 +97,12 @@
   color: #1f69c9;
 }
 .header__address {
+  display: flex;
+  align-items: last baseline;
+  justify-content: space-between;
+  min-width: 1200px;
+  max-width: 1600px;
+  height: 275px;
   margin: 0;
   color: #838383;
 }
@@ -247,13 +258,13 @@
 }
 .staff {
   margin: 0;
-  background-image: url(/images/staff_picks_background.jpg);
+  background-image: url(../images/staff_picks_background.jpg);
   padding: 100px 0 140px;
 }
 
 .staff__title {
   text-align: center;
-  color: #f2f2f2;
+  color: #ffffff;
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
